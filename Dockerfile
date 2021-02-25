@@ -1,7 +1,7 @@
-FROM docker:17.05
+FROM docker:20.10
 
 RUN apk -v --no-cache --update add \
-        python \
+        python3 \
         py-pip \
         groff \
         less \
